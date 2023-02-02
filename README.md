@@ -16,4 +16,4 @@ We fetch data for all the passing and failed tests and find the distribution typ
 
 After performing initial data analysis and calulating the probability to fail, we predict the optimal stopping for a given test based on their test duration(runtimes). We find the best distribution(s) for the given test, and find an optimal stopping point for the test by finding the point where the probability of the test failing is greater than the probabilty of the test passing.
 
-Once this model is trained, it will use the Optimal stopping point value to further stop long running tests from consuming the resources after a certain point. This can help the engineering teams and managers better allocate their resources.
+Once we have calculated optimal stopping point values for tests, this can be used stop long running tests from consuming the resources after a certain point. This can help the engineering teams and managers better allocate their resources.
