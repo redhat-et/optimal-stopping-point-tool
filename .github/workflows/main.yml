@@ -1,8 +1,6 @@
 name: Optimal Stopping Point 
 
 on:
-  push:
-    branches: [ main ]
   workflow_dispatch:
 
 jobs:
